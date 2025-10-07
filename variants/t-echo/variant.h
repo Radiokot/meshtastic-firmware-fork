@@ -36,6 +36,9 @@ extern "C" {
 
 #define TTGO_T_ECHO
 
+// Oleg's patch: only store 40 nodes for faster Bluetooth connection
+#define MAX_NUM_NODES 40
+
 // Number of pins defined in PinDescription array
 #define PINS_COUNT (48)
 #define NUM_DIGITAL_PINS (48)
