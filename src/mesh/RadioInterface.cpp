@@ -136,7 +136,7 @@ const RegionInfo regions[] = {
         433 - 435 MHz at 100mW, no restrictions.
         https://www.mcmc.gov.my/skmmgovmy/media/General/pdf/Short-Range-Devices-Specification.pdf
     */
-    RDEF(MY_433, 433.0f, 435.0f, 100, 0, 20, true, false, false),
+    RDEF(MY_433, 433.0f, 435.0f, 100, 0, 33, true, false, false),
 
     /*
         Malaysia
